@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d ! -path . -print | wc -l
+sort /etc/passwd | cut -d':' -f 1,6
